@@ -46,6 +46,8 @@ public class Scanner_and_iterator {
         8、containsAll：查找多个元素是否存在
         9、removeAll；删除多个元素
         10、get：获取下表元素
+        Arrays.sort(sum)排序
+        Arrays.asList(nums[i], nums[left], nums[right])生成列表
         */
         //遍历
         ArrayList<Integer> ints = new ArrayList<>();
