@@ -34,6 +34,18 @@ public class Scanner_and_iterator {
             System.out.println(h);
         }
 
+        Scanner scanner = new Scanner(System.in);
+// 读取输入
+        String input = scanner.nextLine();
+        String[] tokens = input.split(" ");
+// 将输入的数字转换为整数数组
+        int n = tokens.length;
+        int[] nums = new int[n];
+        for (int i = 0; i < tokens.length; i++) {
+            nums[i] = Integer.parseInt(tokens[i]);
+        }
+
+
         //Collection(单列集合：List、Set))演示
         /*
         1、add：添加单个元素
